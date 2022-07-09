@@ -72,3 +72,35 @@ button{
     border-radius: 9px;
     border: 0px;
 }
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.images{
+    display: flex;
+    gap: 10px;
+}
+.img-container{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 160px;
+    text-align: center;
+}
+.divi{
+    border-style: solid;
+    border-radius: 12px;
+    border-width: 4px;
+    border-color: #3882f6;
+    height: 160px;
+    width: 160px;
+}
+
+.extra{
+    margin-bottom: 75px;
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: bolder;
+}
