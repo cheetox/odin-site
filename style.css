@@ -1,10 +1,9 @@
-.big{
-    padding-left: 100px;
-    padding-right: 100px;
-}
+
 .header{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    margin-left: 150px;
+    padding-right: 50px;
 }
 .header-logo{
     color: #E5E7EB;
@@ -13,7 +12,7 @@ li{
     font-size: 18px;
     color: #E5E7EB;
 }
-.first-container{
+.first-container,.footer{
     background-color: #1F2937;
 }
 
@@ -81,6 +80,7 @@ button{
 .images{
     display: flex;
     gap: 10px;
+    flex-wrap: wrap;
 }
 .img-container{
     margin: 20px;
@@ -103,4 +103,51 @@ button{
     color: #1F2937;
     font-size: 36px;
     font-weight: bolder;
+}
+
+.quote-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    color: #1F2937;
+}
+.quote{
+    width: 700px;
+}
+
+.ff{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    padding: 35px;
+    margin: 70px;
+    border-radius: 12px;
+    color: white;
+}
+
+.btm-btn{
+    border-width: 1px;
+    border: white;
+    border-style: solid;
+    margin-left: 50px;
+}
+
+.h-big{
+    font: 42x;
+    font-weight: bold;
+}
+
+.footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
